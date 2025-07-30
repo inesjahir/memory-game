@@ -37,12 +37,9 @@ For this assignement I used HTML5 , CSS3 , JavaScript (Vanilla JS)
 
 
 ## Preview
-
-![Start](read_me/photo1.jpg)
-
-![when you succeed](read_me/photo2.jpg)
-
-![when you fail](read_me/photo3.jpg)
+![Start](read_me/photo1.png)
+![when you succeed](read_me/photo2.png)
+![when you fail](read_me/photo3.png)
 
 
 
