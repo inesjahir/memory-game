@@ -37,8 +37,13 @@ For this assignement I used HTML5 , CSS3 , JavaScript (Vanilla JS)
 
 
 ## Preview
+when you start :
 ![Start](read_me/photo1.png)
+
+when you succeed : 
 ![when you succeed](read_me/photo2.png)
+
+when you fail : 
 ![when you fail](read_me/photo3.png)
 
 
