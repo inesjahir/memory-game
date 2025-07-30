@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeu de memo</title>
+    <script src="jeu.js" defer></script>
+    <link rel="icon" href="image/501823890cf2be28743ac4861742d294.jpg">
+    <link rel="stylesheet" href="jeu.css" />
+  </head>
+
+  <body>
+    <img id="img1" src="image/97f67a9a410fae061194b24678608ff8.jpg" alt="" />
+    <div style="text-align: center">
+      <button id="demarrer" type="button">Démarrer une nouvelle partie</button>
+      <p id="regles">
+        Regle du jeu: Clique sur les chiffres dans le bon ordre après qu’ils
+        soient cachés.<br />
+        Si tu réussis, tu passes au niveau suivant. Sinon, recommence !
+      </p>
+    </div>
+    <img id="img2" src="image/97f67a9a410fae061194b24678608ff8.jpg" alt="" />
+    <div id="game" class="hidden">
+        <img
+          id="stickers"
+          src="image/6b6956049d074bfe485dce1e9bc6ff56.jpg"
+          alt=""
+        />
+        <p>Niveau : <span id="level"></span></p>
+      <div id="sequence"></div>
+    </div>
+    <div id="zone-boutons"></div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center; /* Centre horizontalement */
+  height: 100vh; /* Prend toute la hauteur de l'écran */
+  justify-content: center; /* Centre verticalement */
+}
+
+#demarrer {
+  background-color: rgb(186, 25, 25);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 17px;
+  box-shadow: 3px 3px 3px rgb(108, 108, 108);
+}
+
+p {
+  color: rgb(182, 22, 22);
+  font-style: italic;
+  font-size: 25px;
+  justify-content: center;
+}
+.bouton_jeu {
+  background-color: rgb(186, 25, 25);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.bouton_vert {
+  background-color: rgb(85, 163, 85);
+}
+.bouton_rouge {
+  background-color: rgb(119, 24, 24);
+}
+#restart {
+  background-color: rgb(186, 25, 25);
+  border-radius: 10px;
+}
+#suivant {
+  background-color: rgb(186, 25, 25);
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px rgb(145, 142, 142);
+  color: rgb(0, 0, 0);
+}
+#restart:hover,
+#suivant:hover {
+  background-color: rgb(186, 25, 25);
+}
+#img1 {
+  height: 90px;
+}
+#img2 {
+  height: 90px;
+}
+#regles {
+  color: rgb(186, 25, 25);
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+#zone-boutons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+
+#stickers {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20%;
+  height: auto;
+}
+
